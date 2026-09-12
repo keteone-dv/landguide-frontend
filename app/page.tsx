@@ -108,7 +108,7 @@ export default function Home() {
           </div>
 
           <h1 className="mb-6 max-w-4xl text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
-            მიწის ანალიზი ერთი საკადასტრო კოდით
+            სწრაფი და სანდო ინფორმაცია თქვენი მიწის შესახებ
           </h1>
 
           <p className="mb-10 max-w-2xl text-base leading-relaxed text-slate-200 opacity-90 sm:text-lg">
@@ -470,13 +470,13 @@ export default function Home() {
                   icon: MapPin,
                   step: "ნაბიჯი 1",
                   title: "შეიყვანე საკადასტრო კოდი",
-                  desc: "შეიყვანეთ ნებისმიერი ნაკვეთის 11-ნიშნა ან სრული კოდი საძიებო ველში.",
+                  desc: "შეიყვანეთ ნებისმიერი ნაკვეთის 10-ნიშნა ან სრული კოდი საძიებო ველში.",
                 },
                 {
                   icon: Database,
                   step: "ნაბიჯი 2",
                   title: "მიიღე ნაკვეთის სრული მონაცემები",
-                  desc: "საჯარო რეესტრისა და მუნიციპალური ზონირების მყისიერი სინთეზი ერთ ეკრანზე.",
+                  desc: "ვამოწმებთ ნაკვეთის მონაცემებს ჩვენს ბაზაში, სამშენებლო რეგლამენტის გათვალისწინებით.",
                 },
                 {
                   icon: Brain,
@@ -488,7 +488,7 @@ export default function Home() {
                   icon: FileText,
                   step: "ნაბიჯი 4",
                   title: "მიიღე AI ჩატის შეჯამება",
-                  desc: "ოფიციალური ანალიტიკური დოკუმენტი არქიტექტორებისა და ინვესტორებისთვის.",
+                  desc: "მიიღეთ დეტალური პასუხი წყაროს მითითებით — პირდაპირ ეკრანზე.",
                 },
               ].map(({ icon: Icon, step, title, desc }) => (
                 <div
