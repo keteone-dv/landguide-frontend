@@ -119,7 +119,7 @@ export default function Home() {
           <div className="flex flex-col items-center gap-4 text-xs font-semibold text-slate-200 opacity-80 sm:flex-row sm:gap-8 sm:text-sm">
             <div className="flex items-center gap-2">
               <BadgeCheck className="h-[18px] w-[18px] text-teal" />
-              <span>საჯარო რეესტრის სინქრონიზაცია</span>
+              <span>ნაკვეთის ძირითადი მონაცემები</span>
             </div>
             <div className="flex items-center gap-2">
               <Layers className="h-[18px] w-[18px] text-white/90" />
@@ -470,7 +470,7 @@ export default function Home() {
                   icon: MapPin,
                   step: "ნაბიჯი 1",
                   title: "შეიყვანე საკადასტრო კოდი",
-                  desc: "შეიყვანეთ ნებისმიერი ნაკვეთის 10-ნიშნა ან სრული კოდი საძიებო ველში.",
+                  desc: "შეიყვანეთ ნებისმიერი ნაკვეთის 10-ნიშნა კოდი საძიებო ველში.",
                 },
                 {
                   icon: Database,
@@ -488,7 +488,7 @@ export default function Home() {
                   icon: FileText,
                   step: "ნაბიჯი 4",
                   title: "მიიღე AI ჩატის შეჯამება",
-                  desc: "მიიღეთ დეტალური პასუხი წყაროს მითითებით — პირდაპირ ეკრანზე.",
+                  desc: "მიიღეთ AI ასისტენტთან საუბრის შეჯამება, წყაროების მითითებით.",
                 },
               ].map(({ icon: Icon, step, title, desc }) => (
                 <div
