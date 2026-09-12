@@ -152,13 +152,15 @@ function ChatPageInner() {
         <div className="flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4 sm:gap-6">
             <Link href="/" className="flex items-center gap-3">
-              <Image
-                src="/logo.jpeg"
-                alt="LandGuide"
-                width={40}
-                height={56}
-                className="h-9 w-auto sm:h-10"
-              />
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/90 p-2 shadow-sm sm:h-11 sm:w-11">
+                <Image
+                  src="/logo.png"
+                  alt="LandGuide"
+                  width={318}
+                  height={299}
+                  className="h-full w-full object-contain"
+                />
+              </div>
               <span className="hidden text-[10px] font-semibold uppercase tracking-wider text-slate-300 sm:block">
                 AI იურიდიული ასისტენტი
               </span>

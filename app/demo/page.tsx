@@ -143,13 +143,15 @@ export default function Demo() {
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:h-20 sm:px-6 lg:px-12">
           <div className="flex items-center gap-4 sm:gap-10">
             <Link className="group flex items-center" href="/">
-              <Image
-                src="/logo.jpeg"
-                alt="LandGuide"
-                width={40}
-                height={56}
-                className="h-9 w-auto transition-transform duration-200 group-hover:scale-105 sm:h-10"
-              />
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/90 p-2 shadow-md transition-transform duration-200 group-hover:scale-105 sm:h-11 sm:w-11">
+                <Image
+                  src="/logo.png"
+                  alt="LandGuide"
+                  width={318}
+                  height={299}
+                  className="h-full w-full object-contain"
+                />
+              </div>
             </Link>
             <nav className="hidden items-center gap-7 md:flex">
               <a
@@ -787,13 +789,15 @@ export default function Demo() {
       <footer className="mt-16 border-t border-white/10 bg-navy text-slate-400">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 py-10 text-xs sm:px-6 md:flex-row lg:px-12">
           <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:text-left">
-            <Image
-              src="/logo.jpeg"
-              alt="LandGuide"
-              width={40}
-              height={56}
-              className="h-7 w-auto"
-            />
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/90 p-1.5">
+              <Image
+                src="/logo.png"
+                alt="LandGuide"
+                width={318}
+                height={299}
+                className="h-full w-full object-contain"
+              />
+            </div>
             <p className="text-slate-400">
               © 2026 LandGuide. ყველა უფლება დაცულია. საკადასტრო და
               ზონირების ანალიტიკური პლატფორმა.
