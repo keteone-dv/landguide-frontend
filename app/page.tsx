@@ -123,7 +123,7 @@ export default function Home() {
             </div>
             <div className="flex items-center gap-2">
               <Layers className="h-[18px] w-[18px] text-white/90" />
-              <span>K1, K2, K3 კოეფიციენტები</span>
+              <span>ზონირების სრული ანალიზი</span>
             </div>
             <div className="flex items-center gap-2">
               <Gavel className="h-[18px] w-[18px] text-white/90" />
@@ -454,8 +454,7 @@ export default function Home() {
               როგორ მუშაობს პლატფორმა
             </h2>
             <p className="text-base leading-relaxed text-slate-600 sm:text-lg">
-              ოთხი მარტივი ნაბიჯი საკადასტრო კოდიდან ოფიციალურ ანალიტიკურ
-              დასკვნამდე
+              ოთხი მარტივი ნაბიჯი
             </p>
           </div>
 
