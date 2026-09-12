@@ -1,6 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
 import {
-  Landmark,
   Zap,
   User,
   ArrowRight,
@@ -46,13 +46,14 @@ export default function Home() {
             aria-label="მთავარი ნავიგაცია"
             className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:h-20 sm:px-6 lg:px-12"
           >
-            <Link className="group flex items-center gap-3" href="/">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 text-white shadow-md transition-transform duration-200 group-hover:scale-105 sm:h-10 sm:w-10">
-                <Landmark className="h-5 w-5" />
-              </div>
-              <span className="text-lg font-bold tracking-tight text-white sm:text-xl">
-                LandGuide
-              </span>
+            <Link className="group flex items-center" href="/">
+              <Image
+                src="/logo.jpeg"
+                alt="LandGuide"
+                width={40}
+                height={56}
+                className="h-9 w-auto transition-transform duration-200 group-hover:scale-105 sm:h-10"
+              />
             </Link>
 
             <div className="hidden items-center gap-8 md:flex">
@@ -651,12 +652,13 @@ export default function Home() {
       <footer className="border-t border-white/10 bg-navy text-slate-400">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 py-10 text-xs sm:px-6 md:flex-row lg:px-12">
           <div className="flex flex-col items-center gap-4 text-center sm:flex-row sm:text-left">
-            <div className="flex items-center gap-2">
-              <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-white/10 text-white">
-                <Landmark className="h-4 w-4" />
-              </div>
-              <span className="text-sm font-bold text-white">LandGuide</span>
-            </div>
+            <Image
+              src="/logo.jpeg"
+              alt="LandGuide"
+              width={40}
+              height={56}
+              className="h-7 w-auto"
+            />
             <p className="text-slate-400">
               © 2026 LandGuide. ყველა უფლება დაცულია. საკადასტრო და
               ზონირების ანალიტიკური პლატფორმა.

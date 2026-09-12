@@ -1,10 +1,10 @@
 "use client";
 
 import { Suspense, useRef, useState, type FormEvent } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import {
-  Landmark,
   ArrowLeft,
   Bot,
   Send,
@@ -152,17 +152,16 @@ function ChatPageInner() {
         <div className="flex h-16 items-center justify-between px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-4 sm:gap-6">
             <Link href="/" className="flex items-center gap-3">
-              <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-white/10 text-white shadow-sm">
-                <Landmark className="h-5 w-5" />
-              </div>
-              <div className="hidden flex-col leading-none sm:flex">
-                <span className="text-sm font-bold tracking-tight text-white">
-                  LandGuide
-                </span>
-                <span className="text-[10px] font-semibold uppercase tracking-wider text-slate-300">
-                  AI იურიდიული ასისტენტი
-                </span>
-              </div>
+              <Image
+                src="/logo.jpeg"
+                alt="LandGuide"
+                width={40}
+                height={56}
+                className="h-9 w-auto sm:h-10"
+              />
+              <span className="hidden text-[10px] font-semibold uppercase tracking-wider text-slate-300 sm:block">
+                AI იურიდიული ასისტენტი
+              </span>
             </Link>
             <div className="hidden h-6 w-px bg-white/15 md:block" />
             <Link
